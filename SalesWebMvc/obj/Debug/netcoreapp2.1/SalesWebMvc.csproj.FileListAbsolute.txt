@@ -41,3 +41,4 @@ C:\Users\bebev\OneDrive\Área de Trabalho\Curso_C#\Sistema Web com ASP .NET Core
 C:\Users\bebev\OneDrive\Área de Trabalho\Curso_C#\Sistema Web com ASP .NET Core MVC e Entity Framework!\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Edit.cshtml.g.cs
 C:\Users\bebev\OneDrive\Área de Trabalho\Curso_C#\Sistema Web com ASP .NET Core MVC e Entity Framework!\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs
 C:\Users\bebev\OneDrive\Área de Trabalho\Curso_C#\Sistema Web com ASP .NET Core MVC e Entity Framework!\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\SalesWebMvc.csproj.CoreCompileInputs.cache
+C:\Users\bebev\OneDrive\Área de Trabalho\Curso_C#\Sistema Web com ASP .NET Core MVC e Entity Framework!\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.cshtml.g.cs
