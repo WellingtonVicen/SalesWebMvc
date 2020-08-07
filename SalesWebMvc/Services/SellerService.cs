@@ -23,6 +23,8 @@ namespace SalesWebMvc.Services
 
         public void Insert(Seller obj) // insercao no banco de dados
         {
+
+            obj.Department = _contex.Department.First();
             _contex.Add(obj);
             _contex.SaveChanges(); 
         }
