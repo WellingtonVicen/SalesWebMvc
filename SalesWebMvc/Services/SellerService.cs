@@ -20,5 +20,11 @@ namespace SalesWebMvc.Services
         {
             return _contex.Seller.ToList(); // devolver a lista de Sellers do Banco de dados
         }
+
+        public void Insert(Seller obj) // insercao no banco de dados
+        {
+            _contex.Add(obj);
+            _contex.SaveChanges(); 
+        }
     }
 }
