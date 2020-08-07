@@ -11,6 +11,7 @@ using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Models;
 using SalesWebMvc.Data;
 using SalesWebMvc.Services;
+
 namespace SalesWebMvc
 {
     public class Startup
@@ -48,7 +49,17 @@ namespace SalesWebMvc
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, SeedingService seedingService)
         {
 
-           
+            var enUS = new CultureInfo("en-US");
+            var localizationOptions = new RequestLocalizationOptions
+            {
+                DefaultRequestCulture = new RequestCulture(enUS),
+                SupportedCultures = new List<CultureInfo> { enUS },
+                SupportedUICultures = new List<CultureInfo> { enUS }
+
+            };
+            app.UseRequestLocalization(localizationOptions);
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
